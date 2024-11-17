@@ -64,7 +64,6 @@ const Home = () => {
 	const [grid, setGrid] = useState(genEmptyGrid);
 	const [running, setRunning] = useState(false);
 	const [speed, setSpeed] = useState(100);
-	const [patternName, setPatternName] = useState<string>("");
 	const [patterns, setPatterns] = useState<
 		{ name: string; pattern: number[][] }[]
 	>([]);
